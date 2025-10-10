@@ -1,0 +1,23 @@
+p { color:navy;
+    background-color: aqua;
+}
+
+h1 { background-color: aqua ;}
+body{background-color: cadetblue;}  
+li{
+    size: 150%;
+}
+#flint{width: 300px;}
+.Polychrome{
+
+    animation: myAnimation 3s infinite;
+}
+
+@keyframes myAnimation {
+  0%   {color: red;}
+  25%  {color:yellow; }
+  50%  {color:saddlebrown; }
+  75%  {color:green;}
+  100% {color:red; }
+  
+}

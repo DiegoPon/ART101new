@@ -1,0 +1,41 @@
+.testdiv{
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+    color: palevioletred;
+    
+}
+#house{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#house div{
+    width: 400px;
+}
+#split{
+    display: flex;
+    
+}
+.testdiv h2{
+    color: aqua;
+}
+h2{
+    color: pink;
+}
+
+.testdiv button{
+    
+    background-color: blueviolet;
+}
+
+button.special{
+    background-color: red;
+}
+.testdiv .special {
+    background-color: coral;
+}
+
+button{
+    background-color: brown;
+}

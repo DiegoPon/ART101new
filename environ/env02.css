@@ -1,3 +1,17 @@
+.layer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@font-face{
+  font-family: "fontSlender";
+  src: url("newSlendermanswriting.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body{
   background-color: black;
   background-image:url('there.jpg');
@@ -5,43 +19,74 @@ body{
   background-attachment: fixed; 
   background-size: 100% 100%;
 }
-
-#hey{
+.layer p {
+  position: absolute;
+}
+.jimbo_text{
   size: 1120px;
+}
+
+#jimbo_abovetv{
   color: antiquewhite;
-  opacity:10%;
-  padding-left: 68%;
+  opacity:100%;
+  left: 68%;
+  bottom: 40%;
+  
   
   font-family:'Courier New', Courier, monospace;
 }
-#hey2{
+#jimbo_text4{
   size: 1120px;
   color: antiquewhite;
   opacity:10%;
-  padding-left: 70%;
+  left: 70%;
   
   font-family:'Courier New', Courier, monospace;
 }
-#near_tv{
+#jimbo_belowtv{
   color: antiquewhite;
-  padding-left: 27%;
+  left: 27%;
+  opacity:10%;
+  position: relative;
+
+}
+#jimbo_text3{
+  color: antiquewhite;
+  left: 27%;
     opacity:10%;
 
 }
-#above_tv{
-  color: antiquewhite;
-  padding-left: 27%;
-    opacity:10%;
-
-}
-#jimbo{
-  padding-left: 67%;
-  padding-top: 12%;
-  opacity: 3.2%;
-  width: 4%
+#jimbo_img{
+  position: absolute;
+  left: 27%;
+  top: 10%;
+  opacity: 13%;
+  width: 5%;
+  
 }
 html, body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+.slender{
+  position: absolute;
+  right: 14%;
+  top: 28%;  /* 26 */
+  width: 24%;
+  opacity: 10%;
+}
+
+.slender_text p {
+  font-family: "fontSlender", 'Courier New', Courier, monospace;
+  color: red;
+  font-size: 25px;
+
+}
+
+.slender_abovewindow{
+  right: 24%;
+  top: 25%;
 }

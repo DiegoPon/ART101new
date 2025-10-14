@@ -46,14 +46,14 @@ body{
 #jimbo_belowtv{
   color: antiquewhite;
   left: 27%;
-  opacity:10%;
+  opacity:100%;
   position: relative;
 
 }
 #jimbo_text3{
   color: antiquewhite;
   left: 27%;
-    opacity:10%;
+  opacity:100%;
 
 }
 #jimbo_img{
@@ -81,12 +81,17 @@ html, body {
 
 .slender_text p {
   font-family: "fontSlender", 'Courier New', Courier, monospace;
-  color: red;
+  color: rgb(96, 1, 1);
   font-size: 25px;
-
+  opacity: 100%;
 }
 
 .slender_abovewindow{
   right: 24%;
   top: 25%;
+}
+
+.slender_neartree{
+  right: 24%;
+  top: 50%
 }

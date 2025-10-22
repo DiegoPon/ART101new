@@ -79,24 +79,24 @@ body{
   position: absolute;
   left: 27%;
   top: 10%;
-  opacity: 1.8%;
+  opacity: 5%;
   width: 5%;
   
 }
 .slender{
   position: absolute;
   right: 14%;
-  top: 28%;  /* 26 */
+  top: 32%;  /* 26 */
   width: 24%; 
-  opacity: 7%;
+  opacity: 10%;
 }
 
 .slender_text p {
   font-family: "fontSlender", 'Courier New', Courier, monospace;
   color: rgb(96, 1, 1);
-  font-size: 30px;
-  opacity: 60%;
-
+  font-size: 35px;
+  opacity: 0%; /* 60*/
+ 
 }
 
 .slender_abovewindow{
@@ -107,4 +107,34 @@ body{
 .slender_neartree{
   right: 24%;
   top: 50%
+}
+
+.textbox_container img{
+    position: absolute;
+    opacity: 3%;
+    width: 100%;
+    display: block;
+    
+}
+#textbox_slender_text{
+    opacity: 70%;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 15%;
+    left: 15%;
+    font-family: "fontSlender", 'Courier New', Courier, monospace;
+    color: rgb(96, 1, 1);
+    font-size: 17px;
+
+}
+
+.textbox_container{
+    position: relative;
+    display: inline-block;
+    /* background-color: aqua;*/
+    left: 73%;
+    top:6%;
+    width: 280px;
+    height: 210px;
 }

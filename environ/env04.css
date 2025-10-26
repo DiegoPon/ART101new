@@ -1,0 +1,182 @@
+.layer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@font-face{
+  font-family: "fontSlender";
+  src: url("newSlendermanswriting.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  background-color: black;
+  background-image:url('there.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.layer p {
+  position: absolute;
+}
+.jimbo_text p{
+  size: 1120px;
+  color: antiquewhite;
+  font-family:'Courier New', Courier, monospace;
+  opacity: 10%;  
+}
+
+#jimbo_abovetv{
+  color: yellow;
+  left: 24%;
+  top: 27%;
+}
+#jimbo_text4{
+  size: 1120px;
+  color: aqua;
+  left: 32%;
+  top: 27%;
+  
+}
+#jimbo_belowtv{
+  color: blue;
+  left: 24%;
+  top: 47%;
+  opacity: 30%;
+}
+
+#jimbo_righttv{
+  left: 32%;
+  top: 47%;
+  color: green;
+
+}
+
+#jimbo_lefttv{
+  top: 37%;
+  left: 19%;
+  color:orange;
+}
+
+#jimbo_text3{
+  color: purple;
+  left: 37%;
+  top: 36%;
+  opacity: 25%;
+}
+
+#jimbo_img{
+  position: absolute;
+  left: 27%;
+  top: 10%;
+  opacity: 5%;
+  width: 5%;
+  
+}
+.slender{
+  position: absolute;
+  right: 14%;
+  top: 32%;  /* 26 */
+  width: 24%; 
+  opacity: 20%;
+}
+
+.slender_text p {
+  font-family: "fontSlender", 'Courier New', Courier, monospace;
+  color: rgb(96, 1, 1);
+  font-size: 35px;
+  opacity: 0%; /* 60*/
+ 
+}
+
+.slender_abovewindow{
+  right: 24%;
+  top: 25%;
+}
+
+.slender_neartree{
+  right: 24%;
+  top: 50%
+}
+
+.textbox_container img{
+    position: absolute;
+    opacity: 6%;
+    width: 100%;
+    display: block;
+    
+}
+#textbox_slender_text{
+    opacity: 100%;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 15%;
+    left: 15%;
+    font-family: "fontSlender", 'Courier New', Courier, monospace;
+    color: rgb(96, 1, 1);
+    font-size: 17px;
+
+}
+
+.textbox_container{
+    position: relative;
+    display: inline-block;
+    /* background-color: aqua;*/
+    left: 73%;
+    top:6%;
+    width: 280px;
+    height: 210px;
+}
+
+
+/* chat gpt wizardary*/
+
+
+#random-image-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;  /* prevent blocking existing page */
+  z-index: 9999;         /* ensure it's above everything else */
+}
+
+.image-wrapper {
+  position: absolute;
+  
+  cursor: pointer;
+  pointer-events: auto;  /* make them clickable even though parent isn't */
+}
+
+/* Image itself */
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 10%;
+}
+
+/* Text on top of each image */
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  pointer-events: none; /* ensure text doesn’t block clicks */
+  text-shadow: 1px 1px 2px black;
+}

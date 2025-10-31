@@ -32,8 +32,8 @@ function moody (moodyCount){
    return mood;
 }
 
-function myPlay(){
-   var audio = document.getElementById("button-audio");
+function myPlay(buttonID){
+   var audio = document.getElementById(buttonID);
    audio.play();
    myPlay()
 
@@ -47,6 +47,9 @@ $("#needy-button").click(function () {
    $("#needy-button").html("Clicks: " + count + " Color: " + colors[colorCount] + " " + moodMessage);
    var audio = document.getElementById("button-audio");
    audio.play();
+
+   myPlay("button-audio");
+
    changeBackground( colors[colorCount] );
 
    makeImage("Coral"); 
